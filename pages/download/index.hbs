@@ -45,6 +45,29 @@
 
 		<h2>Change log</h2>
 		<div class="changeLog">
+		<strong>Version 1.5.8</strong>
+		<ul>
+				<li>You can now drag panes to the far edges and have them dock there. Drag to within the last few pixels to see the new drop area.</li>
+				<li>Improvements to resize pane mouse cursors.</li>
+				<li>Middle click support.</li>
+				<li>Adds a 'shown' method to ItemContainer</li>
+				<li>LayoutManager.updateSize fixed to work with width and height</li>
+				<li>Responsive design; enabled by default, can be disabled with config.</li>
+				<li>Tab dropdown option: stacks can be displayed as dropdowns.</li>
+				<li>CSS now generated from less</li>
+				<li>Hidden items no longer updated to prevent reflows.</li>
+		</ul>
+		<strong>Version 1.5.7</strong>
+		<ul>
+				<li>Fix issues with ContentItems created from DragSources.</li>
+				<li>Fix AngularJS Routing issue</li>
+				<li>Add object to destroy call so we know what item is being destroyed.</li>
+		</ul>
+		<strong>Version 1.5.6</strong>
+		<ul>
+				<li>Fix an issue dragging with buttons other than the left button.</li>
+				<li>Makes createDragListener able to take a function to call as well as an ItemConfig, to support dynamic item configuration on drag.</li>
+		</ul>
 		<strong>Version 1.5.5</strong>
 		<ul>
 			<li>Fixes Tabs can be closed by drag/dropping {{issue 142}}</li>
@@ -117,5 +140,5 @@
 		</ul>
 		</div>
 	</div>
-	
+
 </div>
