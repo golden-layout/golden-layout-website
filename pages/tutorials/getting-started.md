@@ -1,6 +1,6 @@
 Getting started
 =====================================
-Getting started with GoldenLayout is a breeze, but a bit off handholding is always nice. This tutorial takes you through the initial steps until you're up and running with your first managed layout.
+Getting started with GoldenLayout is a breeze, but a bit of handholding is always nice. This tutorial takes you through the initial steps until you're up and running with your first managed layout.
 
 ### Including dependencies
 GoldenLayout needs jQuery to work - that’s it. Either include it directly, using a script tag, e.g.
