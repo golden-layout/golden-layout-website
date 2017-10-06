@@ -6,7 +6,7 @@ True if this tab is the selected tab
 ### header
 A reference to the header this tab is a child of
 
-### contentIten
+### contentItem
 A reference to the content item this tab relates to
 
 ### element
@@ -15,7 +15,7 @@ The tabs outer (jQuery) DOM element
 ### titleElement
 The (jQuery) DOM element containing the title
 
-### isActive
+### closeElement
 The (jQuery) DOM element that closes the tab
 
 
