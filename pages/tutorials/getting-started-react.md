@@ -87,7 +87,7 @@ Now that we've got the basics covered, let's look at some more advanced features
 
     this.props.glContainer.parent.popout();
 
-Communicating between components is always tricky, but with GoldenLayout it can be even harder if your components are distributed across multiple windows and screens. This is why GoldenLayout comes with an [EventHub](docs/EventEmitter.html) - an EventEmitter that's global to all windows and can be used for inter-component communication, even across windows. The eventHub is exposed through a property called `glEventHub`. To raise an event across all windows, you'd call:
+Communicating between components is always tricky, but with GoldenLayout it can be even harder if your components are distributed across multiple windows and screens. This is why GoldenLayout comes with an [EventHub](../docs/EventEmitter.html) - an EventEmitter that's global to all windows and can be used for inter-component communication, even across windows. The eventHub is exposed through a property called `glEventHub`. To raise an event across all windows, you'd call:
 
     this.props.glEventHub.emit( 'something-happend', {some: 'data' });
 
