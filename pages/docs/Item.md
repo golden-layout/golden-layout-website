@@ -103,9 +103,9 @@ argument: keepChild
 type: Boolean
 optional: true
 default: false
-desc: If true the item won't be destroyed. (Use cautiosly, if the item isn't destroyed it's up to you to destroy it later)
+desc: If true the item won't be destroyed. (Use cautiously, if the item isn't destroyed it's up to you to destroy it later)
 
-Destroys the item and all it's children.
+Destroys the item and all its children.
 
 replaceChild( oldChild, newChild )
 -----------------------------------
